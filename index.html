@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="shortcut icon" href="images/logo.png" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha284-EVSTQN2/azprG1Anm2QDgpJLIm10Nao0Yz1ztcQTwFspd2yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-cls bg-light">
+        <div class="container d-flex justify-content-between">
+            <div class="d-flex gap-2">
+                <div class="border-end d-flex px-3 align-items-center gap-1 ">
+                    <i class="fa-solid fa-envelope para"></i>
+                    <p class="para text-center mb-0 ">hello@colorlib.com</p>
+                </div>
+                <p class="para mb-0 text-center px-3">Free Shipping for all Order of $99</p>
+            </div>
+
+            <div class="d-flex gap-3">
+                <div class="d-flex border-end gap-3 px-3 align-items-center para">
+                    <i class="fa-brands fa-facebook-f "></i>
+                    <i class="fa-brands fa-twitter "></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-pinterest-p "></i>
+                </div>
+                <div class="d-flex border-end px-3 align-items-center">
+                    <img src="images/language.png" alt="flag" />
+                    <div class="dropdown">
+                        <button class="btn  para dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            English
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item para" href="#">Spanish</a></li>
+                            <li><a class="dropdown-item para" href="#">English</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="d-flex gap-2 px-3 align-items-center para">
+                    <i class="fa-solid fa-user "></i>
+                    <p class="mb-0 text-center para">Login</p>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="wrapper">
+            <!-- <div class="sidebar">
+                <div class="w-100">
+                   
+                    
+                </div>
+            </div>
+                 -->
+            <div class="row py-3">
+                <div class="col-3">
+                    <div>
+                        <img src="images/logo.png" alt="logo">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <nav class="navbar ">
+                        <div class="container-fluid ">
+                            <ul class="navbar-nav d-flex flex-row gap-5">
+                                <li class="nav-item">
+                                    <a class="nav-link active para text-dark fw-bold" aria-current="page"
+                                        href="#">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link para text-dark fw-bold" href="#">SHOP</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link para text-dark fw-bold" href="#">PAGES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link para text-dark fw-bold" href="#">BLOG</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link para text-dark fw-bold" href="#">CONTACT</a>
+                                </li>
+                            </ul>
+                    </nav>
+                </div>
+                <div class="col-3">
+                    <div class="d-flex gap-2 align-items-center  ">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-briefcase"></i>
+                        <p class="para pt-3 ps-1">item: <span class="fw-bold text-dark ">$150.00</span></p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row py-2 mb-5">
+                <div class="col-3 ">
+                    <div class="dropdown  py- d-flex justify-content-center ">
+                        <button class="color-bg py-3 dropdown-toggle text-white fw-bold  w-100 " type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-bars pe-4"></i>All departments
+                        </button>
+                        <ul class="dropdown-menu w-100 ">
+                            <li><a class="dropdown-item para" href="#">Fresh Meat</a></li>
+                            <li><a class="dropdown-item para" href="#">Vegetables</a></li>
+                            <li><a class="dropdown-item para" href="#">Fruit & Nut Gifts</a></li>
+                            <li><a class="dropdown-item para" href="#">Fresh Berries</a></li>
+                            <li><a class="dropdown-item para" href="#">Ocean Foods</a></li>
+                            <li><a class="dropdown-item para" href="#">Butter & Eggs</a></li>
+                            <li><a class="dropdown-item para" href="#">Fastfood</a></li>
+                            <li><a class="dropdown-item para" href="#">Fresh Onion</a></li>
+                            <li><a class="dropdown-item para" href="#">Papayaya & Crisps</a></li>
+                            <li><a class="dropdown-item para" href="#">Oatmeal</a></li>
+                            <li><a class="dropdown-item para" href="#">Fresh Bananas</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="row">
+                        <div class="col-8">
+                            <div class=" d-flex justify-content-center border-lgt  overflow-hidden bg-white">
+                                <div class="dropdown border-end px-3 f-flex ">
+                                    <p class=" dropdown-toggle fw-bold  pt-3" data-bs-toggle="dropdown">
+                                        All Categories
+                                    </p>
+                                </div>
+
+                                <input type="text" class="form-control border-0 flex-grow-1 shadow-none px-3"
+                                    placeholder="What do you need?" />
+                                <button class="btn text-white fw-bold py-3 px-4 color-bg ">
+                                    SEARCH
+                                </button>
+
+                            </div>
+                        </div>
+
+                        <div class="col-4">
+                            <div class="d-flex justify-content-center gap-2">
+                                <div class=" phone">
+                                    <i class="fa-solid fa-phone  "></i>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center align-items-center ">
+                                    <p class="fw-bold mb-0">+65 11.188.888</p>
+                                    <p class="para mb-0 sub-text">support 24/7 time</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column p-5 hero mt-4">
+                        <p class="text fw-bold mt-4 mb-2 para">FRUIT FRESH</p>
+                        <h1 class="heading fw-bold">Vegetable</h1>
+                        <h1 class="heading fw-bold">100% Organic</h1>
+                        <p class="sub-text mb-4">Free Pickup and Delivery Available</p>
+                        <button class="btn-all text-white fw-bold py-2  color-bg mb-5">
+                            SHOP NOW
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="swiper categorySwiper mb-5">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide text-center">
+                        <img src="images/carousel/cat-1.jpg" alt="Meat" class="img-fluid mb-3">
+                        <h6 class="fw-bold bg-white py-3 px-2 mx-2">DRINK FRUITS</h6>
+                    </div>
+
+                    <div class="swiper-slide text-center">
+                        <img src="images/carousel/cat-2.jpg" alt="Meat" class="img-fluid mb-3">
+                        <h6 class="fw-bold bg-white py-3 px-2 mx-2">DRINK FRUITS</h6>
+                    </div>
+
+                    <div class="swiper-slide text-center">
+                        <img src="images/carousel/cat-3.jpg" alt="Meat" class="img-fluid mb-3">
+                        <h6 class="fw-bold bg-white py-3 px-2 mx-2">DRINK FRUITS</h6>
+                    </div>
+
+                    <div class="swiper-slide text-center">
+                        <img src="images/carousel/cat-4.jpg" alt="Fresh Fruit" class="img-fluid mb-3">
+                        <h6 class="fw-bold bg-white py-3 px-2 mx-2">FRESH FRUIT</h6>
+                    </div>
+                    <div class="swiper-slide text-center">
+                        <img src="images/carousel/cat-5.jpg" alt="Fresh Fruit" class="img-fluid mb-3">
+                        <h6 class="fw-bold bg-white py-3 px-2 mx-2">FRESH FRUIT</h6>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-6">
+                    <img src="images/banner/banner-1.jpg" class="w-100" alt="ban1">
+                </div>
+                <div class="col-6">
+                    <img src="images/banner/banner-2.jpg" class="w-100" alt="ban1">
+                </div>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-4">
+                    <img src="images/blog/blog-1.jpg" class="w-100" alt="ban1">
+                    <ul class="list-unstyled d-flex gap-3 pt-4 ">
+                        <li class="sub-text"><i class="fa-regular fa-calendar "></i> May 4,2019
+                        </li>
+                        <li class="sub-text"><i class="fa-regular fa-comment"></i>5
+                        </li>
+                    </ul>
+                    <p class="fw-bold sub-heading">Cooking tips make cooking simple</p>
+                    <p class="sub-text">Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+
+                </div>
+                <div class="col-4">
+                    <img src="images/blog/blog-2.jpg" class="w-100" alt="ban1">
+                    <ul class="list-unstyled d-flex gap-3 pt-4 ">
+                        <li class="sub-text"><i class="fa-regular fa-calendar "></i> May 4,2019
+                        </li>
+                        <li class="sub-text"><i class="fa-regular fa-comment"></i>5
+                        </li>
+                    </ul>
+                    <p class="fw-bold sub-heading">Cooking tips make cooking simple</p>
+                    <p class="sub-text">Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+
+                </div>
+                <div class="col-4">
+                    <img src="images/blog/blog-3.jpg" class="w-100" alt="ban1">
+                    <ul class="list-unstyled d-flex gap-3 pt-4 ">
+                        <li class="sub-text"><i class="fa-regular fa-calendar "></i> May 4,2019
+                        </li>
+                        <li class="sub-text"><i class="fa-regular fa-comment"></i>5
+                        </li>
+                    </ul>
+                    <p class="fw-bold sub-heading">Cooking tips make cooking simple</p>
+                    <p class="sub-text">Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.para{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    
+}
+.sub-para{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.sub-heading{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.text{
+    color: #7FAD39;
+}
+.sub-text{
+    color: #a1a1a1;
+}
+.color-bg{
+ background-color: #7FAD39;
+ border: 1px solid #7FAD39;
+ border-radius: 8px;
+}
+.border-lgt{
+    border: 1px solid #eeeeee;
+    border-radius: 8px;
+}
+
+.border{
+    border: 1px solid #7FAD39 !important;
+    border-radius: 8px !important;
+}
+.btn-all{
+   width: 170px;
+   height: auto;
+}
+/* ------------------navbar----------------- */
+.navbar-cls {
+    width: 100%;
+    height: auto;
+}
+.nav-link.active {
+  color: #7FAD39 !important;
+}
+.nav-link:hover {
+  color: #7FAD39 !important;
+}
+.phone{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #eeeeee;
+    color: #7FAD39;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* -----------------------main------------------- */
+
+.main_content{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+/* ----------hero--------------- */
+.hero{
+     background-image: url("../images/banner1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header{
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 52px;
+}
+
+/* ----------------carousel----------------------- */
+
+.categorySwiper .swiper-slide {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 20px 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.categorySwiper .swiper-slide:hover {
+  transform: translateY(-5px);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #000;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+
+
