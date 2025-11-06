@@ -1,8 +1,8 @@
 
 document.addEventListener("DOMContentLoaded", () => {
   const carousels = document.querySelectorAll('[id^="carousel-"]');
-  const visibleCount = 3; // Always show 3 items
-  const slideCount = 3;   // Slide 3 items at a time
+  const visibleCount = 3;
+  const slideCount = 3;   
 
   carousels.forEach((carousel) => {
     const list = carousel.querySelector(".product-list");
@@ -11,18 +11,16 @@ document.addEventListener("DOMContentLoaded", () => {
     const buttons = carousel.querySelectorAll(".arrow-btn");
     let currentIndex = 0;
 
-    // Set width for product-list container
     list.style.display = "flex";
     list.style.transition = "transform 0.5s ease";
 
-    // Set each item's width so 3 are visible
     items.forEach(item => {
       item.style.flex = `0 0 ${100 / visibleCount}%`;
       item.style.boxSizing = "border-box";
     });
 
     const updateSlide = () => {
-      // Loop index
+     
       if (currentIndex >= totalItems) currentIndex = 0;
       if (currentIndex < 0) currentIndex = totalItems - slideCount;
       const translateX = -(currentIndex * (100 / visibleCount));
@@ -47,7 +45,6 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
 
-    // Initialize first slide
     updateSlide();
   });
 });
