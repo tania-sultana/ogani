@@ -456,7 +456,7 @@ map-container {
 .tab-content.active {
     display: block;
 }
-/* --------------------shopping card----------------------- */
+/* --------------------shopping cart----------------------- */
 .quantity{
     min-width: 89px;
 }
@@ -471,6 +471,10 @@ input:focus{
 .coupon-bg{
     background-color: #6F6F6F;
     min-width: 143px;
+}
+/* --------------------check out --------------------- */
+.borderT{
+    border-top: 1px solid #7fad39;
 }
 /* --------------------------------media---------------------------------- */
 @media (max-width: 768px) {
