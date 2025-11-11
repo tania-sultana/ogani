@@ -18,11 +18,8 @@ const dec = document.querySelector('.dec-qty');
 
   tabs.forEach(tab => {
     tab.addEventListener('click', () => {
-      // Remove active classes
       tabs.forEach(t => t.classList.remove('active'));
       contents.forEach(c => c.classList.remove('active'));
-
-      // Add active class to clicked tab and corresponding content
       tab.classList.add('active');
       document.getElementById(tab.dataset.tab).classList.add('active');
     });

@@ -86,7 +86,7 @@
                                         href="index.html">HOME</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link para text-dark fw-bold" href="#">SHOP</a>
+                                    <a class="nav-link para text-dark fw-bold" href="shop.html">SHOP</a>
                                 </li>
                                 <!-- <li class="nav-item">
                                     <a class="nav-link para text-dark fw-bold" href="#">PAGES</a> -->
@@ -94,13 +94,17 @@
                                 <li class="menu position-relative">
                                     <a class="menu-btn nav-link para text-dark fw-bold" href="#">PAGES</a>
                                     <ul class="dropdown-list bg-dark py-2 px-3">
-                                        <li><a class="nav-link text-decoration-none text-white para" href="shopDetails.html">Shop Details</a></li>
-                                        <li><a class="nav-link text-decoration-none text-white para" href="shoppingCart.html">Shopping Cart</a></li>
-                                        <li><a class="nav-link text-decoration-none text-white para" href="checkOut.html">Check Out</a></li>
-                                        <li><a class="nav-link text-decoration-none text-white para" href="blogDetails.html">Blog Details</a></li>
+                                        <li><a class="nav-link text-decoration-none text-white para"
+                                                href="shopDetails.html">Shop Details</a></li>
+                                        <li><a class="nav-link text-decoration-none text-white para"
+                                                href="shoppingCart.html">Shopping Cart</a></li>
+                                        <li><a class="nav-link text-decoration-none text-white para"
+                                                href="checkOut.html">Check Out</a></li>
+                                        <li><a class="nav-link text-decoration-none text-white para"
+                                                href="blogDetails.html">Blog Details</a></li>
                                     </ul>
                                 </li>
-                                
+
                                 <li class="nav-item">
                                     <a class="nav-link para text-dark fw-bold" href="blog.html">BLOG</a>
                                 </li>
@@ -346,121 +350,226 @@
             </div>
 
             <!-- --------------second carousel section----------------------------- -->
-            <div id="app" class=" my-5">
-                <div class="d-flex flex-column flex-md-row justify-content-between g-4 g-lg-5">
-
-                    <div id="carousel-0" class="flex-grow-1">
-                        <div class="d-flex gap-5 align-items-center mb-4">
-                            <h2 class="fs-4 fw-bolder text-dark">Latest Products</h2>
-                            <div class="">
-                                <button class="arrow-btn me-2" data-dir="-1" data-index="0">&lt;</button>
-                                <button class="arrow-btn" data-dir="1" data-index="0">&gt;</button>
+            <div class="row mb-5">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="" prod-slider-container id="latest-products-container">
+                        <div class="prod-slider-header">
+                            <h5>Latest Products</h5>
+                            <div class="prod-slider-controls">
+                                <button class="prod-prev-btn" aria-label="Previous Products"><i
+                                        class="fas fa-chevron-left"></i></button>
+                                <button class="prod-next-btn" aria-label="Next Products"><i
+                                        class="fas fa-chevron-right"></i></button>
                             </div>
                         </div>
-                        <div class="product-list-viewport bg-white  p-2">
-                            <div class="product-list">
+                        <div class="prod-slider-wrapper">
+                            <div class="prod-slider-track">
 
-                                <div class="product-item"><img src="images/product/product-10.jpg" alt="Product"
-                                        class="product-img">
-                                    <div class="flex-grow-1">
-                                        <p class=" mb-0">Crab Pool Security</p>
-                                        <p class=" fw-bold mb-0">$30.00</p>
+                                <div class="prod-slider-column">
+                                    <div class="prod-slider-item">
+                                        <img src="images/product/feature-1.jpg" alt="Latest 1">
+                                        <div class="prod-details">
+                                            <p>Crab Pool Security</p>
+                                            <p class="prod-price">$30.00</p>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="product-item"><img src="images/product/product-9.jpg" alt="Product"
-                                        class="product-img">
-                                    <div class="flex-grow-1">
-                                        <p class=" mb-0">Crab Pool Security</p>
-                                        <p class=" fw-bold mb-0">$30.00</p>
-                                    </div>
-                                </div>
-                                <div class="product-item"><img src="images/product/product-11.jpg" alt="Product"
-                                        class="product-img">
-                                    <div class="flex-grow-1">
-                                        <p class=" mb-0">Crab Pool Security</p>
-                                        <p class=" fw-bold mb-0">$30.00</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div id="carousel-1" class="flex-grow-1">
-                        <div class="d-flex gap-5 align-items-center mb-4">
-                            <h2 class="fs-4 fw-bolder text-dark">Top Rated Products</h2>
-                            <div class="space-x-2">
-                                <button class="arrow-btn me-2" data-dir="-1" data-index="1">&lt;</button>
-                                <button class="arrow-btn" data-dir="1" data-index="1">&gt;</button>
-                            </div>
-                        </div>
-                        <div class="product-list-viewport shadow-sm bg-white rounded p-2">
-                            <div class="product-list">
+                                    <div class="prod-slider-item">
+                                        <img src="images/product/feature-2.jpg" alt="Latest 2">
+                                        <div class="prod-details">
+                                            <p>Crab Pool Security</p>
+                                            <p class="prod-price">$30.00</p>
+                                        </div>
+                                    </div>
 
-                                <div class="product-item"><img src="images/product/product-10.jpg" alt="Product"
-                                        class="product-img">
-                                    <div class="flex-grow-1">
-                                        <p class=" mb-0">Crab Pool Security</p>
-                                        <p class=" fw-bold mb-0">$30.00</p>
+                                    <div class="prod-slider-item">
+                                        <img src="images/product/feature-3.jpg" alt="Latest 3">
+                                        <div class="prod-details">
+                                            <p>Crab Pool Security</p>
+                                            <p class="prod-price">$30.00</p>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="product-item"><img src="images/product/product-9.jpg" alt="Product"
-                                        class="product-img">
-                                    <div class="flex-grow-1">
-                                        <p class=" mb-0">Crab Pool Security</p>
-                                        <p class=" fw-bold mb-0">$30.00</p>
+
+                                <div class="prod-slider-column">
+                                    <div class="prod-slider-item">
+                                        <img src="images/product/feature-1.jpg" alt="Latest 1">
+                                        <div class="prod-details">
+                                            <p>Crab Pool Security</p>
+                                            <p class="prod-price">$30.00</p>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="product-item"><img src="images/product/product-11.jpg" alt="Product"
-                                        class="product-img">
-                                    <div class="flex-grow-1">
-                                        <p class=" mb-0">Crab Pool Security</p>
-                                        <p class=" fw-bold mb-0">$30.00</p>
+
+                                    <div class="prod-slider-item">
+                                        <img src="images/product/feature-2.jpg" alt="Latest 2">
+                                        <div class="prod-details">
+                                            <p>Crab Pool Security</p>
+                                            <p class="prod-price">$30.00</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="prod-slider-item">
+                                        <img src="images/product/feature-3.jpg" alt="Latest 3">
+                                        <div class="prod-details">
+                                            <p>Crab Pool Security</p>
+                                            <p class="prod-price">$30.00</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <div id="carousel-2" class="flex-grow-1">
-                        <div class="d-flex gap-5 align-items-center mb-4">
-                            <h2 class="fs-4 fw-bolder text-dark">Review Products</h2>
-                            <div class="">
-                                <button class="arrow-btn me-2" data-dir="-1" data-index="2">&lt;</button>
-                                <button class="arrow-btn" data-dir="1" data-index="2">&gt;</button>
-                            </div>
-                        </div>
-                        <div class="product-list-viewport shadow-sm bg-white rounded p-2">
-                            <div class="product-list">
-
-                                <div class="product-item"><img src="images/product/product-10.jpg" alt="Product"
-                                        class="product-img">
-                                    <div class="flex-grow-1">
-                                        <p class=" mb-0">Crab Pool Security</p>
-                                        <p class=" fw-bold mb-0">$30.00</p>
-                                    </div>
-                                </div>
-                                <div class="product-item"><img src="images/product/product-9.jpg" alt="Product"
-                                        class="product-img">
-                                    <div class="flex-grow-1">
-                                        <p class=" mb-0">Crab Pool Security</p>
-                                        <p class=" fw-bold mb-0">$30.00</p>
-                                    </div>
-                                </div>
-                                <div class="product-item"><img src="images/product/product-11.jpg" alt="Product"
-                                        class="product-img">
-                                    <div class="flex-grow-1">
-                                        <p class=" mb-0">Crab Pool Security</p>
-                                        <p class=" fw-bold mb-0">$30.00</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
-            </div>
 
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="prod-slider-container" id="top-rated-products-container">
+                        <div class="prod-slider-header">
+                            <h5>Top Rated Products</h5>
+                            <div class="prod-slider-controls">
+                                <button class="prod-prev-btn" aria-label="Previous Products"><i
+                                        class="fas fa-chevron-left"></i></button>
+                                <button class="prod-next-btn" aria-label="Next Products"><i
+                                        class="fas fa-chevron-right"></i></button>
+                            </div>
+                        </div>
+                        <div class="prod-slider-wrapper">
+                            <div class="prod-slider-track">
+
+                                <div class="prod-slider-column">
+                                    <div class="prod-slider-item">
+                                        <img src="images/latestP/lp-1.jpg" alt="Review 1">
+                                        <div class="prod-details">
+                                            <p>Crab Pool Security</p>
+                                            <p class="prod-price">$15.00</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="prod-slider-item">
+                                        <img src="images/latestP/lp-2.jpg" alt="Review 2">
+                                        <div class="prod-details">
+                                            <p>High Fiber Cereal Box</p>
+                                            <p class="prod-price">$11.00</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="prod-slider-item">
+                                        <img src="images/latestP/lp-3.jpg" alt="Review 3">
+                                        <div class="prod-details">
+                                            <p>Whole Milk Gallon</p>
+                                            <p class="prod-price">$6.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="prod-slider-column">
+                                    <div class="prod-slider-item">
+                                        <img src="images/latestP/lp-1.jpg" alt="Review 1">
+                                        <div class="prod-details">
+                                            <p>Crab Pool Security</p>
+                                            <p class="prod-price">$15.00</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="prod-slider-item">
+                                        <img src="images/latestP/lp-2.jpg" alt="Review 2">
+                                        <div class="prod-details">
+                                            <p>High Fiber Cereal Box</p>
+                                            <p class="prod-price">$11.00</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="prod-slider-item">
+                                        <img src="images/latestP/lp-3.jpg" alt="Review 3">
+                                        <div class="prod-details">
+                                            <p>Whole Milk Gallon</p>
+                                            <p class="prod-price">$6.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="prod-slider-container" id="review-products-container">
+                        <div class="prod-slider-header">
+                            <h5>Review Products</h5>
+                            <div class="prod-slider-controls">
+                                <button class="prod-prev-btn" aria-label="Previous Products"><i
+                                        class="fas fa-chevron-left"></i></button>
+                                <button class="prod-next-btn" aria-label="Next Products"><i
+                                        class="fas fa-chevron-right"></i></button>
+                            </div>
+                        </div>
+                        <div class="prod-slider-wrapper">
+                            <div class="prod-slider-track">
+
+
+                                <div class="prod-slider-column">
+                                    <div class="prod-slider-item">
+                                        <img src="images/product/feature-5.jpg" alt="Review 1">
+                                        <div class="prod-details">
+                                            <p>Crab Pool Security</p>
+                                            <p class="prod-price">$15.00</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="prod-slider-item">
+                                        <img src="images/product/feature-7.jpg" alt="Review 2">
+                                        <div class="prod-details">
+                                            <p>High Fiber Cereal Box</p>
+                                            <p class="prod-price">$11.00</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="prod-slider-item">
+                                        <img src="images/product/product-12.jpg" alt="Review 3">
+                                        <div class="prod-details">
+                                            <p>Whole Milk Gallon</p>
+                                            <p class="prod-price">$6.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="prod-slider-column">
+                                    <div class="prod-slider-item">
+                                        <img src="images/latestP/lp-1.jpg" alt="Review 1">
+                                        <div class="prod-details">
+                                            <p>Crab Pool Security</p>
+                                            <p class="prod-price">$15.00</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="prod-slider-item">
+                                        <img src="images/latestP/lp-2.jpg" alt="Review 2">
+                                        <div class="prod-details">
+                                            <p>High Fiber Cereal Box</p>
+                                            <p class="prod-price">$11.00</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="prod-slider-item">
+                                        <img src="images/latestP/lp-3.jpg" alt="Review 3">
+                                        <div class="prod-details">
+                                            <p>Whole Milk Gallon</p>
+                                            <p class="prod-price">$6.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
             <!-- ------------------------------blog section-------------------- -->
+            <div class="text-center py-4 mb-4">
+                <h1 class="heading fw-bold">From The Blog</h1>
+                <div class="underline mb-2"></div>
+            </div>
             <div class="row mb-5">
                 <div class="col-4">
                     <img src="images/blog/blog-1.jpg" class="w-100" alt="ban1">
@@ -588,6 +697,7 @@
     <script src="js/index.js"></script>
     <script src="js/feature-product.js"></script>
     <script src="js/carousel.js"></script>
+    <!-- <script src="js/shop.js"></script> -->
 
 </body>
 

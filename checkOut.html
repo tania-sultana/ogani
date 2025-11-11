@@ -82,14 +82,14 @@
                         <div class="container-fluid ">
                             <ul class="navbar-nav d-flex flex-row gap-5">
                                 <li class="nav-item">
-                                    <a class="nav-link active para text-dark fw-bold" aria-current="page"
+                                    <a class="nav-link  para text-dark fw-bold" aria-current="page"
                                         href="index.html">HOME</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link para text-dark fw-bold" href="#">SHOP</a>
+                                    <a class="nav-link para text-dark fw-bold" href="shop.html">SHOP</a>
                                 </li>
                                 <li class="menu position-relative">
-                                    <a class="menu-btn nav-link para text-dark fw-bold" href="#">PAGES</a>
+                                    <a class="menu-btn active nav-link para text-dark fw-bold" href="#">PAGES</a>
                                     <ul class="dropdown-list bg-dark py-2 px-3">
                                         <li><a class="nav-link text-decoration-none text-white para"
                                                 href="shopDetails.html">Shop
@@ -97,7 +97,7 @@
                                         <li><a class="nav-link text-decoration-none text-white para"
                                                 href="shoppingCart.html">Shopping
                                                 Cart</a></li>
-                                        <li><a class="nav-link text-decoration-none text-white para"
+                                        <li><a class="nav-link active text-decoration-none text-white para"
                                                 href="checkOut.html">Check
                                                 Out</a></li>
                                         <li><a class="nav-link text-decoration-none text-white para"
@@ -183,32 +183,31 @@
         </div>
     </div>
     <div class="d-flex flex-column p-5 contact mt-4 ">
-        <h1 class="heading fw-bold text-white text-center">Vegetable’s Package</h1>
+        <h1 class="heading fw-bold text-white text-center">Checkout</h1>
         <div class="d-flex justify-content-center text-white gap-2">
             <a href="index.html" class=" text-decoration-none text-white fw-bold">Home</a>
             <a href="index.html" class=" text-decoration-none text-white fw-bold">- Pages</a>
-            <span>- Shopping Cart</span>
+            <span>- Checkout</span>
         </div>
     </div>
 
-    <div class="container my-5">
+    <div class="container my-5 pt-4 ">
         <div class="borderT bg-light p-1 d-flex justify-content-center py-2 mb-5">
             <p class="text-secondary mb-0 py-1"><i class="fa-solid fa-tag fa-rotate-90 text"></i> Have a coupon? <a
                     href="#" class="text-secondary">Click here</a> to enter your code</p>
         </div>
-        <div class="border-bottom pb-3">
+        <div class="border-bottom pb-3 pt-3 mb-5">
             <h4 class="fw-bold ">Billing Details</h4>
         </div>
         <div class="row mt-4">
-            <div class="col-lg-9 col-md-6 col-sm-12">
+            <div class="col-lg-8 col-md-6 col-sm-12">
                 <form action="" class=" ">
                     <div class="row  ">
                         <div class="col-lg-6 col-md-12 col-sm-12">
                             <div class="mb-4">
                                 <label for="exampleFormControlInput1" class="form-label mb-3">First Name<span
                                         class="text-danger">*</span></label>
-                                <input type="text" class="form-control border-lgt py-2" id="exampleFormControlInput1"
-                                    placeholder="First Name">
+                                <input type="text" class="form-control border-lgt py-2" id="exampleFormControlInput1">
                             </div>
                         </div>
 
@@ -216,10 +215,15 @@
                             <div class="mb-4">
                                 <label for="exampleFormControlInput1" class="form-label mb-3">Last Name<span
                                         class="text-danger">*</span></label>
-                                <input type="text" class="form-control border-lgt py-2" id="exampleFormControlInput1"
-                                    placeholder="Last Name">
+                                <input type="text" class="form-control border-lgt py-2" id="exampleFormControlInput1">
                             </div>
                         </div>
+                    </div>
+
+                     <div class="mb-4">
+                        <label for="exampleFormControlInput1" class="form-label mb-3">Country <span
+                                class="text-danger">*</span></label>
+                        <input type="text" class="form-control border-lgt py-2" id="exampleFormControlInput1">
                     </div>
 
                     <div class="mb-4">
@@ -298,14 +302,14 @@
                     </div>
                 </form>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="bg-light p-3">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="bg-light px-4 pt-4 pb-5">
                     <div class="border-bottom pb-3 mb-4">
                         <h4 class="fw-bold">Your Order</h4>
                     </div>
-                    <div class="d-flex justify-content-between">
-                        <p class="fw-bold">Product</p>
-                        <p class="fw-bold">Total</p>
+                    <div class="d-flex justify-content-between mb-3">
+                        <h5 class="fw-bold">Product</h5>
+                        <h5 class="fw-bold">Total</h5>
                     </div>
                     <div class="border-bottom pb-2 mb-3 text-secondary">
                         <div class="d-flex justify-content-between">
