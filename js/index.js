@@ -124,3 +124,4 @@
             if (topRatedContainer) initializeSlider(topRatedContainer);
             if (reviewContainer) initializeSlider(reviewContainer);
         });
+
